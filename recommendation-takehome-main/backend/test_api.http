@@ -1,0 +1,15 @@
+POST http://127.0.0.1:5001/api/recommendations
+Content-Type: application/json
+
+{
+    "preferences": {
+        "category": "Electronics",
+        "price_range": "under $500"
+    },
+    "history": [
+        {
+            "id": "product031",
+            "name": "Noise-Cancelling Over-Ear Headphones"
+        }
+    ]
+}

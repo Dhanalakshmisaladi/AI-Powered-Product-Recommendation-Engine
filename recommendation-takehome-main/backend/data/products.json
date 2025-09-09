@@ -1,0 +1,152 @@
+[
+  {
+    "id": "prod001", "name": "Ultra-Comfort Running Shoes", "category": "Footwear", "subcategory": "Running", "price": 89.99, "brand": "SportsFlex", "description": "Lightweight running shoes with responsive cushioning and breathable mesh upper.", "features": ["Responsive cushioning", "Breathable mesh", "Durable outsole"], "rating": 4.7, "inventory": 45, "tags": ["running", "athletic", "comfortable", "lightweight"], "imageUrl": "https://placehold.co/400x400/27ae60/ffffff?text=Running+Shoes"
+  },
+  {
+    "id": "prod002", "name": "Premium Wireless Headphones", "category": "Electronics", "subcategory": "Audio", "price": 199.99, "brand": "SoundWave", "description": "Over-ear noise cancelling headphones with 30-hour battery life and premium sound quality.", "features": ["Active noise cancellation", "30-hour battery", "Bluetooth 5.0"], "rating": 4.8, "inventory": 28, "tags": ["wireless", "audio", "noise-cancelling"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Headphones"
+  },
+  {
+    "id": "prod003", "name": "Organic Cotton T-Shirt", "category": "Clothing", "subcategory": "Tops", "price": 24.99, "brand": "EcoWear", "description": "Classic fit t-shirt made from 100% organic cotton. Soft, breathable, and eco-friendly.", "features": ["100% organic cotton", "Sustainable production", "Pre-shrunk"], "rating": 4.5, "inventory": 120, "tags": ["organic", "sustainable", "casual"], "imageUrl": "https://placehold.co/400x400/7f8c8d/ffffff?text=T-Shirt"
+  },
+  {
+    "id": "prod004", "name": "Smart Home Security Camera", "category": "Electronics", "subcategory": "Smart Home", "price": 149.99, "brand": "SecureView", "description": "HD security camera with motion detection, two-way audio, and cloud storage.", "features": ["1080p HD video", "Night vision", "Motion alerts"], "rating": 4.6, "inventory": 35, "tags": ["security", "smart home", "camera"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Camera"
+  },
+  {
+    "id": "prod005", "name": "Stainless Steel Water Bottle", "category": "Home", "subcategory": "Kitchen", "price": 29.99, "brand": "EcoVessel", "description": "Double-walled insulated water bottle that keeps drinks cold for 24 hours.", "features": ["Double-wall insulation", "BPA-free", "Leak-proof lid"], "rating": 4.9, "inventory": 85, "tags": ["eco-friendly", "hydration", "reusable"], "imageUrl": "https://placehold.co/400x400/3498db/ffffff?text=Bottle"
+  },
+  {
+    "id": "prod006", "name": "Professional Laptop Backpack", "category": "Accessories", "subcategory": "Bags", "price": 79.99, "brand": "CommutePro", "description": "Durable backpack with padded laptop compartment and water-resistant exterior.", "features": ["Padded 15\" laptop sleeve", "Water-resistant", "USB charging port"], "rating": 4.7, "inventory": 42, "tags": ["business", "travel", "durable"], "imageUrl": "https://placehold.co/400x400/34495e/ffffff?text=Backpack"
+  },
+  {
+    "id": "prod007", "name": "Smart Fitness Watch", "category": "Electronics", "subcategory": "Wearables", "price": 149.99, "brand": "FitTech", "description": "Advanced fitness tracker with heart rate monitoring, GPS, and sleep tracking.", "features": ["Heart rate monitor", "Built-in GPS", "Water resistant"], "rating": 4.6, "inventory": 30, "tags": ["fitness", "wearable", "health"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Watch"
+  },
+  {
+    "id": "prod008", "name": "Ceramic Non-Stick Cookware Set", "category": "Home", "subcategory": "Kitchen", "price": 199.99, "brand": "CuisineEssentials", "description": "10-piece ceramic-coated cookware set with non-toxic, non-stick surfaces.", "features": ["Ceramic non-stick", "PFOA-free", "Induction compatible"], "rating": 4.5, "inventory": 15, "tags": ["cooking", "kitchen", "non-stick"], "imageUrl": "https://placehold.co/400x400/e74c3c/ffffff?text=Cookware"
+  },
+  {
+    "id": "prod009", "name": "Bluetooth Portable Speaker", "category": "Electronics", "subcategory": "Audio", "price": 69.99, "brand": "SoundWave", "description": "Compact waterproof speaker with 360° sound and 12-hour battery life.", "features": ["Waterproof IPX7", "360° sound", "12-hour playback"], "rating": 4.4, "inventory": 50, "tags": ["portable", "audio", "waterproof"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Speaker"
+  },
+  {
+    "id": "prod010", "name": "Premium Yoga Mat", "category": "Sports", "subcategory": "Yoga", "price": 49.99, "brand": "ZenFitness", "description": "Eco-friendly yoga mat with optimal cushioning and non-slip surface.", "features": ["6mm thickness", "Non-slip texture", "Eco-friendly materials"], "rating": 4.8, "inventory": 60, "tags": ["yoga", "fitness", "exercise"], "imageUrl": "https://placehold.co/400x400/1abc9c/ffffff?text=Yoga+Mat"
+  },
+  {
+    "id": "prod011", "name": "Slim Fit Dress Shirt", "category": "Clothing", "subcategory": "Formal", "price": 59.99, "brand": "ModernMan", "description": "Wrinkle-resistant dress shirt with modern slim fit cut and stretch fabric.", "features": ["Wrinkle-resistant", "Stretch fabric", "Slim fit"], "rating": 4.6, "inventory": 75, "tags": ["formal", "business", "men"], "imageUrl": "https://placehold.co/400x400/7f8c8d/ffffff?text=Shirt"
+  },
+  {
+    "id": "prod012", "name": "Moisturizing Face Cream", "category": "Beauty", "subcategory": "Skincare", "price": 34.99, "brand": "PureGlow", "description": "Hydrating face cream with hyaluronic acid and vitamin E for all skin types.", "features": ["Hyaluronic acid", "Vitamin E", "Paraben-free"], "rating": 4.7, "inventory": 90, "tags": ["skincare", "hydrating", "beauty"], "imageUrl": "https://placehold.co/400x400/9b59b6/ffffff?text=Cream"
+  },
+  {
+    "id": "prod013", "name": "Wireless Ergonomic Mouse", "category": "Electronics", "subcategory": "Computer Accessories", "price": 45.99, "brand": "TechComfort", "description": "Ergonomic wireless mouse with adjustable DPI and silent clicks.", "features": ["Ergonomic design", "Silent clicks", "Adjustable DPI"], "rating": 4.3, "inventory": 55, "tags": ["ergonomic", "office", "computer"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Mouse"
+  },
+  {
+    "id": "prod014", "name": "High-Performance Blender", "category": "Home", "subcategory": "Kitchen", "price": 129.99, "brand": "KitchenPro", "description": "Powerful 1200W blender with variable speed control and pulse function.", "features": ["1200W motor", "Variable speed", "Pulse function"], "rating": 4.8, "inventory": 25, "tags": ["kitchen", "appliance", "smoothie"], "imageUrl": "https://placehold.co/400x400/e67e22/ffffff?text=Blender"
+  },
+  {
+    "id": "prod015", "name": "Leather Crossbody Bag", "category": "Accessories", "subcategory": "Bags", "price": 89.99, "brand": "UrbanStyle", "description": "Genuine leather crossbody bag with adjustable strap and multiple compartments.", "features": ["Genuine leather", "Adjustable strap", "RFID protection"], "rating": 4.7, "inventory": 40, "tags": ["fashion", "leather", "bag"], "imageUrl": "https://placehold.co/400x400/34495e/ffffff?text=Bag"
+  },
+  {
+    "id": "prod016", "name": "Smart LED Light Bulbs (4-pack)", "category": "Electronics", "subcategory": "Smart Home", "price": 39.99, "brand": "BrightHome", "description": "WiFi-enabled color-changing LED bulbs controlled via app or voice assistant.", "features": ["16 million colors", "Voice control", "Scheduling"], "rating": 4.5, "inventory": 70, "tags": ["smart home", "lighting", "energy-saving"], "imageUrl": "https://placehold.co/400x400/f1c40f/ffffff?text=Bulbs"
+  },
+  {
+    "id": "prod017", "name": "Hiking Backpack 35L", "category": "Sports", "subcategory": "Outdoor", "price": 119.99, "brand": "TrailBlazer", "description": "Lightweight 35L hiking backpack with hydration system and rain cover.", "features": ["35L capacity", "Hydration compatible", "Rain cover"], "rating": 4.8, "inventory": 30, "tags": ["hiking", "outdoor", "adventure"], "imageUrl": "https://placehold.co/400x400/16a085/ffffff?text=Hiking+Pack"
+  },
+  {
+    "id": "prod018", "name": "Compact Air Purifier", "category": "Home", "subcategory": "Appliances", "price": 149.99, "brand": "CleanAir", "description": "HEPA air purifier for rooms up to 300 sq ft with air quality sensor.", "features": ["True HEPA filter", "Air quality sensor", "3 speed settings"], "rating": 4.6, "inventory": 22, "tags": ["air purifier", "allergies", "home"], "imageUrl": "https://placehold.co/400x400/2980b9/ffffff?text=Air+Purifier"
+  },
+  {
+    "id": "prod019", "name": "Wireless Charging Pad", "category": "Electronics", "subcategory": "Accessories", "price": 29.99, "brand": "PowerUp", "description": "Fast wireless charging pad compatible with all Qi-enabled smartphones.", "features": ["10W fast charging", "Qi compatible", "LED indicator"], "rating": 4.4, "inventory": 85, "tags": ["charging", "wireless", "smartphone"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Charger"
+  },
+  {
+    "id": "prod020", "name": "Insulated Lunch Box Set", "category": "Home", "subcategory": "Kitchen", "price": 34.99, "brand": "MealPrep", "description": "Insulated lunch box with 3 leak-proof compartments and reusable utensils.", "features": ["Insulated carrier", "3 meal containers", "Leak-proof lids"], "rating": 4.7, "inventory": 55, "tags": ["lunch", "meal prep", "food storage"], "imageUrl": "https://placehold.co/400x400/c0392b/ffffff?text=Lunch+Box"
+  },
+  {
+    "id": "prod021", "name": "Graphic Novel Collection", "category": "Books", "subcategory": "Comics", "price": 49.99, "brand": "Cosmic Comics", "description": "Hardcover collection of award-winning graphic novel series.", "features": ["Hardcover", "300 pages", "Exclusive artwork"], "rating": 4.9, "inventory": 15, "tags": ["comics", "reading", "collection"], "imageUrl": "https://placehold.co/400x400/8e44ad/ffffff?text=Graphic+Novel"
+  },
+  {
+    "id": "prod022", "name": "Stainless Steel French Press", "category": "Home", "subcategory": "Kitchen", "price": 39.99, "brand": "BrewMaster", "description": "Double-walled stainless steel French press that keeps coffee hot.", "features": ["Double-wall insulation", "34oz capacity", "Dishwasher safe"], "rating": 4.7, "inventory": 40, "tags": ["coffee", "brewing", "kitchen"], "imageUrl": "https://placehold.co/400x400/d35400/ffffff?text=French+Press"
+  },
+  {
+    "id": "prod023", "name": "Adjustable Dumbbell Set", "category": "Sports", "subcategory": "Fitness", "price": 299.99, "brand": "IronFlex", "description": "Space-saving adjustable dumbbells that replace 15 sets of weights.", "features": ["Adjustable 5-52.5 lbs", "Dial adjustment system", "Storage tray"], "rating": 4.8, "inventory": 12, "tags": ["fitness", "weights", "home gym"], "imageUrl": "https://placehold.co/400x400/bdc3c7/ffffff?text=Dumbbells"
+  },
+  {
+    "id": "prod024", "name": "Bamboo Bed Sheets - Queen", "category": "Home", "subcategory": "Bedding", "price": 89.99, "brand": "SoftDreams", "description": "Luxuriously soft bamboo sheets with cooling properties, perfect for hot sleepers.", "features": ["100% bamboo viscose", "Cooling technology", "Hypoallergenic"], "rating": 4.7, "inventory": 30, "tags": ["bedding", "sheets", "cooling"], "imageUrl": "https://placehold.co/400x400/3498db/ffffff?text=Bed+Sheets"
+  },
+  {
+    "id": "prod025", "name": "Minimalist Leather Wallet", "category": "Accessories", "subcategory": "Wallets", "price": 39.99, "brand": "UrbanStyle", "description": "Slim profile leather wallet with RFID protection, holds up to 8 cards.", "features": ["Genuine leather", "RFID blocking", "Slim profile"], "rating": 4.6, "inventory": 65, "tags": ["wallet", "leather", "minimalist"], "imageUrl": "https://placehold.co/400x400/34495e/ffffff?text=Wallet"
+  },
+  {
+    "id": "prod026", "name": "Professional Hair Dryer", "category": "Beauty", "subcategory": "Hair Care", "price": 129.99, "brand": "StylePro", "description": "Salon-quality hair dryer with ionic technology and multiple heat settings.", "features": ["2000W motor", "Ionic technology", "3 heat settings"], "rating": 4.7, "inventory": 28, "tags": ["hair care", "styling", "beauty"], "imageUrl": "https://placehold.co/400x400/9b59b6/ffffff?text=Hair+Dryer"
+  },
+  {
+    "id": "prod027", "name": "Wireless Earbuds", "category": "Electronics", "subcategory": "Audio", "price": 79.99, "brand": "SoundWave", "description": "True wireless earbuds with active noise cancellation and 24-hour battery with case.", "features": ["Active noise cancellation", "Touch controls", "24-hour battery"], "rating": 4.5, "inventory": 50, "tags": ["audio", "wireless", "earbuds"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Earbuds"
+  },
+  {
+    "id": "prod028", "name": "Cast Iron Skillet - 12 inch", "category": "Home", "subcategory": "Kitchen", "price": 49.99, "brand": "HeritageKitchen", "description": "Pre-seasoned cast iron skillet ideal for searing, baking, and cooking.", "features": ["Pre-seasoned", "12-inch diameter", "Pour spouts"], "rating": 4.9, "inventory": 35, "tags": ["kitchen", "cooking", "cast iron"], "imageUrl": "https://placehold.co/400x400/7f8c8d/ffffff?text=Skillet"
+  },
+  {
+    "id": "prod029", "name": "Indoor Plant Collection", "category": "Home", "subcategory": "Decor", "price": 59.99, "brand": "GreenLife", "description": "Set of 3 low-maintenance indoor plants in decorative pots.", "features": ["3 different plants", "Decorative pots", "Air purifying"], "rating": 4.5, "inventory": 20, "tags": ["plants", "decor", "home"], "imageUrl": "https://placehold.co/400x400/2ecc71/ffffff?text=Plants"
+  },
+  {
+    "id": "prod030", "name": "Ultra HD Streaming Media Player", "category": "Electronics", "subcategory": "Entertainment", "price": 89.99, "brand": "StreamMax", "description": "4K Ultra HD streaming device with voice remote and access to thousands of channels.", "features": ["4K Ultra HD", "Voice remote", "Dolby Vision"], "rating": 4.7, "inventory": 42, "tags": ["streaming", "entertainment", "4K"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Streaming"
+  },
+  {
+    "id": "prod031", "name": "Trail Running Shoes", "category": "Footwear", "subcategory": "Running", "price": 129.99, "brand": "TrekTrail", "description": "All-terrain trail running shoes with responsive cushioning and rock protection.", "features": ["Vibram outsole", "Rock protection", "Breathable mesh"], "rating": 4.8, "inventory": 25, "tags": ["trail running", "outdoor", "athletic"], "imageUrl": "https://placehold.co/400x400/27ae60/ffffff?text=Trail+Shoes"
+  },
+  {
+    "id": "prod032", "name": "Automatic Pet Feeder", "category": "Pets", "subcategory": "Accessories", "price": 79.99, "brand": "PetCare", "description": "Programmable pet feeder with portion control and scheduling.", "features": ["Portion control", "Meal scheduling", "Voice recording"], "rating": 4.6, "inventory": 30, "tags": ["pet", "feeding", "automatic"], "imageUrl": "https://placehold.co/400x400/e67e22/ffffff?text=Pet+Feeder"
+  },
+  {
+    "id": "prod033", "name": "Sunrise Alarm Clock", "category": "Home", "subcategory": "Bedroom", "price": 49.99, "brand": "SleepWell", "description": "Wake-up light that simulates sunrise with gradually increasing light.", "features": ["Sunrise simulation", "Multiple alarm sounds", "FM radio"], "rating": 4.5, "inventory": 38, "tags": ["sleep", "alarm", "light therapy"], "imageUrl": "https://placehold.co/400x400/f1c40f/ffffff?text=Alarm+Clock"
+  },
+  {
+    "id": "prod034", "name": "Digital Drawing Tablet", "category": "Electronics", "subcategory": "Creativity", "price": 199.99, "brand": "ArtisanTech", "description": "Pressure-sensitive drawing tablet with customizable shortcut keys.", "features": ["8192 pressure levels", "Battery-free pen", "Customizable keys"], "rating": 4.7, "inventory": 15, "tags": ["art", "drawing", "digital"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Tablet"
+  },
+  {
+    "id": "prod035", "name": "Herb Garden Starter Kit", "category": "Home", "subcategory": "Garden", "price": 39.99, "brand": "GreenThumb", "description": "Indoor herb garden kit with self-watering planter and grow lights.", "features": ["Self-watering system", "LED grow light", "6 herb varieties"], "rating": 4.6, "inventory": 45, "tags": ["herbs", "gardening", "kitchen"], "imageUrl": "https://placehold.co/400x400/2ecc71/ffffff?text=Herb+Garden"
+  },
+  {
+    "id": "prod036", "name": "Retro Polaroid Camera", "category": "Electronics", "subcategory": "Photography", "price": 99.99, "brand": "InstantMemories", "description": "Modern instant camera with retro design, producing physical photos.", "features": ["Instant printing", "Digital backup", "Built-in flash"], "rating": 4.4, "inventory": 22, "tags": ["camera", "photography", "instant"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Polaroid"
+  },
+  {
+    "id": "prod037", "name": "Smartphone Gimbal Stabilizer", "category": "Electronics", "subcategory": "Photography", "price": 119.99, "brand": "SteadyShot", "description": "3-axis smartphone gimbal for smooth, professional-quality video.", "features": ["3-axis stabilization", "Object tracking", "Gesture control"], "rating": 4.5, "inventory": 28, "tags": ["photography", "video", "smartphone"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Gimbal"
+  },
+  {
+    "id": "prod038", "name": "Classic Board Game Collection", "category": "Toys", "subcategory": "Games", "price": 59.99, "brand": "GameMaster", "description": "Collection of 6 classic board games in a premium wooden storage box.", "features": ["6 classic games", "Wooden storage box", "Family-friendly"], "rating": 4.8, "inventory": 20, "tags": ["games", "family", "board games"], "imageUrl": "https://placehold.co/400x400/c0392b/ffffff?text=Board+Games"
+  },
+  {
+    "id": "prod039", "name": "Professional Chef's Knife", "category": "Home", "subcategory": "Kitchen", "price": 79.99, "brand": "CulinaryPro", "description": "8-inch professional chef's knife with high-carbon stainless steel blade.", "features": ["High-carbon steel", "Full tang construction", "Ergonomic handle"], "rating": 4.9, "inventory": 30, "tags": ["kitchen", "cooking", "knife"], "imageUrl": "https://placehold.co/400x400/7f8c8d/ffffff?text=Chef+Knife"
+  },
+  {
+    "id": "prod040", "name": "Portable Solar Charger", "category": "Electronics", "subcategory": "Accessories", "price": 49.99, "brand": "EcoPower", "description": "Foldable solar panel charger with dual USB ports for charging phones outdoors.", "features": ["21W solar output", "Dual USB ports", "Foldable design"], "rating": 4.5, "inventory": 40, "tags": ["solar", "charger", "portable"], "imageUrl": "https://placehold.co/400x400/f39c12/ffffff?text=Solar+Charger"
+  },
+  {
+    "id": "prod041", "name": "Smart Digital Notebook", "category": "Office", "subcategory": "Stationery", "price": 39.99, "brand": "DigiNote", "description": "Reusable digital notebook with app connectivity to scan and store notes.", "features": ["Reusable pages", "Cloud sync", "OCR capability"], "rating": 4.4, "inventory": 35, "tags": ["notebook", "digital", "writing"], "imageUrl": "https://placehold.co/400x400/3498db/ffffff?text=Smart+Note"
+  },
+  {
+    "id": "prod042", "name": "Essential Oil Diffuser", "category": "Home", "subcategory": "Home Decor", "price": 45.99, "brand": "AromaPure", "description": "Ultrasonic essential oil diffuser with color-changing LED lights.", "features": ["Ultrasonic technology", "Color-changing", "7 LED options"], "rating": 4.7, "inventory": 60, "tags": ["aromatherapy", "essential oil", "home"], "imageUrl": "https://placehold.co/400x400/9b59b6/ffffff?text=Diffuser"
+  },
+  {
+    "id": "prod043", "name": "Sustainable Bamboo Toothbrushes", "category": "Beauty", "subcategory": "Oral Care", "price": 14.99, "brand": "EcoSmile", "description": "Set of 4 biodegradable bamboo toothbrushes with charcoal-infused bristles.", "features": ["Biodegradable bamboo", "Charcoal bristles", "BPA-free"], "rating": 4.6, "inventory": 100, "tags": ["eco-friendly", "sustainable", "oral care"], "imageUrl": "https://placehold.co/400x400/27ae60/ffffff?text=Toothbrushes"
+  },
+  {
+    "id": "prod044", "name": "Smart Body Composition Scale", "category": "Health", "subcategory": "Fitness", "price": 69.99, "brand": "FitTech", "description": "Bluetooth-connected scale that measures weight, body fat, muscle mass, and more.", "features": ["Multiple metrics", "App connectivity", "User recognition"], "rating": 4.5, "inventory": 25, "tags": ["fitness", "health", "tracking"], "imageUrl": "https://placehold.co/400x400/bdc3c7/ffffff?text=Smart+Scale"
+  },
+  {
+    "id": "prod045", "name": "Handcrafted Ceramic Mug Set", "category": "Home", "subcategory": "Kitchen", "price": 49.99, "brand": "ArtisanCraft", "description": "Set of 4 uniquely designed handcrafted ceramic mugs.", "features": ["Handcrafted", "Microwave safe", "Dishwasher safe"], "rating": 4.8, "inventory": 20, "tags": ["mugs", "ceramic", "handcrafted"], "imageUrl": "https://placehold.co/400x400/e67e22/ffffff?text=Mug+Set"
+  },
+  {
+    "id": "prod046", "name": "Compact Espresso Machine", "category": "Home", "subcategory": "Kitchen", "price": 179.99, "brand": "BrewMaster", "description": "Space-saving espresso machine with 15-bar pressure and milk frother.", "features": ["15-bar pressure", "Milk frother", "Compact design"], "rating": 4.6, "inventory": 15, "tags": ["coffee", "espresso", "brewing"], "imageUrl": "https://placehold.co/400x400/d35400/ffffff?text=Espresso"
+  },
+  {
+    "id": "prod047", "name": "Wireless Gaming Controller", "category": "Electronics", "subcategory": "Gaming", "price": 59.99, "brand": "GameMaster", "description": "Ergonomic wireless gaming controller compatible with PC and multiple consoles.", "features": ["Multi-platform", "Programmable buttons", "Vibration feedback"], "rating": 4.7, "inventory": 35, "tags": ["gaming", "controller", "wireless"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Controller"
+  },
+  {
+    "id": "prod048", "name": "Natural Linen Throw Blanket", "category": "Home", "subcategory": "Decor", "price": 79.99, "brand": "CozyHome", "description": "Soft, breathable 100% linen throw blanket with decorative tassels.", "features": ["100% linen", "Handmade tassels", "Breathable fabric"], "rating": 4.8, "inventory": 25, "tags": ["blanket", "linen", "throw"], "imageUrl": "https://placehold.co/400x400/ecf0f1/ffffff?text=Blanket"
+  },
+  {
+    "id": "prod049", "name": "Professional Ring Light Kit", "category": "Electronics", "subcategory": "Photography", "price": 89.99, "brand": "StudioPro", "description": "18-inch LED ring light with adjustable tripod stand and phone holder.", "features": ["Dimmable LEDs", "Color temperature control", "Adjustable height"], "rating": 4.6, "inventory": 30, "tags": ["photography", "video", "lighting"], "imageUrl": "https://placehold.co/400x400/2c3e50/ffffff?text=Ring+Light"
+  },
+  {
+    "id": "prod050", "name": "Premium Yoga Block Set", "category": "Sports", "subcategory": "Yoga", "price": 24.99, "brand": "ZenFitness", "description": "Set of 2 high-density EVA foam yoga blocks and a cotton strap.", "features": ["High-density foam", "Moisture-resistant", "Non-slip surface"], "rating": 4.7, "inventory": 50, "tags": ["yoga", "fitness", "props"], "imageUrl": "https://placehold.co/400x400/1abc9c/ffffff?text=Yoga+Blocks"
+  }
+]
