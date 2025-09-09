@@ -1,35 +1,39 @@
-*AI-Powered Product Recommendation Engine*
+AI-Powered Product Recommendation Engine
 
-Overview
-This project is a full-stack web application that provides personalized product recommendations to users based on their preferences and browsing history. It leverages a Flask backend, a React frontend, and the Google Gemini Pro LLM to generate intelligent and relevant suggestions in a simulated e-commerce environment. The core of this project lies in its carefully designed prompt engineering, which ensures the AI's responses are accurate, contextual, and helpful.
 
-Tech Stack
+This project is a full-stack web application that provides personalized product recommendations based on user preferences and browsing history. It leverages a Flask backend, a React frontend, and the Google Gemini Pro LLM to generate intelligent and relevant suggestions in a simulated e-commerce environment.
+
+✨ Features
+Dynamic Product Catalog: Fetches and displays a grid of all available products with images.
+
+Intelligent Fuzzy Search: Filter products by name, category, or tags with tolerance for typos.
+
+Price Sorting: Easily sort the product catalog by price (ascending or descending).
+
+User Preference Form: Captures user interests like product category and price range.
+
+Interactive Browsing History: Click a product to add it to a history list; click again to remove it.
+
+AI-Powered Recommendations: Sends user data to a Gemini-powered backend to receive personalized product recommendations.
+
+Personalized Reasoning: The AI provides a unique, context-aware reason for each recommendation, directly referencing user input.
+
+Interactive UI: Users can click on recommended items to view their full details without losing context.
+
+Robust Error Handling: Gracefully handles cases where no recommendations are found or if the AI returns an invalid product.
+
+Responsive Design: A clean, two-column layout that adapts to smaller screen sizes for mobile viewing.
+
+🛠️ Tech Stack
 Backend: Python, Flask, Flask-CORS
 
-Frontend: JavaScript, React.js
+Frontend: JavaScript, React.js, Fuse.js (for fuzzy search)
 
 AI / LLM: Google Gemini Pro via the google-generativeai library
 
 Environment Management: venv (Python), npm (Node.js)
 
-Features
-Dynamic Product Catalog: Fetches and displays a grid of all available products.
-
-User Preference Form: Captures user interests like product category and price range.
-
-Browsing History Simulation: Clicking a product adds it to a persistent browsing history list.
-
-AI-Powered Recommendations: Sends user data to a Gemini-powered backend to receive personalized product recommendations.
-
-Personalized Reasoning: The AI provides a unique, context-aware reason for each recommendation.
-
-Interactive UI: Users can click on recommended items to view their full details.
-
-Robust Error Handling: The application gracefully handles cases where no recommendations are found or if the AI returns an invalid product.
-
-Responsive Design: A clean, two-column layout that adapts to smaller screen sizes for mobile viewing.
-
-Setup and Installation
+🚀 Setup and Installation
 To run this project locally, you will need two separate terminals.
 
 Backend Setup (Flask Server)
@@ -81,7 +85,7 @@ npm start
 
 The application will automatically open in your browser at http://localhost:3000.
 
-My Approach & Prompt Engineering Strategy
+🧠 My Approach & Prompt Engineering Strategy
 My development process was structured to build a robust and scalable application, with a primary focus on the quality of the AI interaction.
 
 1. Backend First Development
@@ -97,7 +101,7 @@ V2 (Strict & Logical): I re-engineered the prompt to be much stricter. I changed
 V3 (Final Polish - Personalized Reasoning): To make the output even more impressive, I added a final rule: "Your reasoning for each recommendation MUST be personalized by referencing the user's preferences or browsing history." This small change resulted in significantly more compelling and context-aware explanations, directly tying the recommendation back to the user's actions.
 
 3. Clean Frontend Architecture
-The frontend was built with a clean, component-based architecture. State management is centralized in the main App.js component using useState and useEffect hooks, which is a modern and efficient approach for an application of this scale. All components are functional and focused on a single responsibility, making the code easy to read and maintain.
+The frontend was built with a clean, component-based architecture. State management is centralized in the main App.js component using useState, useEffect, and useMemo hooks, which is a modern and efficient approach for an application of this scale. All components are functional and focused on a single responsibility, making the code easy to read and maintain.
 
 4. Robust Error Handling
 I implemented error handling on both the frontend and backend. Most importantly, the frontend Recommendations.js component defensively checks if a product ID returned by the AI actually exists in the local product catalog before attempting to render it. This prevents the application from crashing if the AI ever makes a mistake, ensuring a smooth user experience.
