@@ -1,4 +1,5 @@
-AI-Powered Product Recommendation Engine
+*AI-Powered Product Recommendation Engine*
+
 Overview
 This project is a full-stack web application that provides personalized product recommendations to users based on their preferences and browsing history. It leverages a Flask backend, a React frontend, and the Google Gemini Pro LLM to generate intelligent and relevant suggestions in a simulated e-commerce environment. The core of this project lies in its carefully designed prompt engineering, which ensures the AI's responses are accurate, contextual, and helpful.
 
